@@ -1,0 +1,96 @@
+body{
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 8;
+	background-color: #cccccc;
+	
+}
+h1 {
+
+}
+
+#header {
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #dddddd;
+	padding-top: 40px;
+	background-color: #ffffff;
+
+
+}
+
+#nav {
+	list-style-type: none;
+	margin-right: 100px;
+}
+
+#nav li {
+	margin-right: 20px;
+	float: right;
+
+
+}
+
+a{
+	color: #777777;
+}
+
+#jeannie{
+	height: 100px;
+	bottom: 400px;
+	left:100px;
+
+}
+
+
+.name {
+	height:25px;
+	width: 17%;
+	background: #4aaaa5;
+	color: white;
+	font-size: 26px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+
+	
+}
+
+
+
+ #maincontent {
+
+ 	width: 650px;
+ 	background-color: white;
+ 	padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:100px;
+
+
+ }
+ .abtext{
+ 	margin-left: 38px;
+ 	color: #4aaaa5;
+ 	font-size: 23px;
+ 	border-bottom: 1px solid #dddddd;
+}
+
+#footer{
+	height: 60px;
+	width: 100%;
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+}
+
+#aside {
+	position: absolute;
+	top: 100px;
+	right: 118px;
+	width: 16%;
+	height: 20%;
+	background-color: #ffffff;
+	margin-top: 30px;
+	colr: #4aaaa5;
+}
+.CWM{
+	color: #4aaaa5;
+}
