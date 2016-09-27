@@ -23,6 +23,9 @@ h1 {
 	margin-right: 100px;
 }
 
+/* created li class to manipulate list 
+order movement */
+
 #nav li {
 	margin-right: 20px;
 	float: right;
@@ -34,17 +37,12 @@ a{
 	color: #777777;
 }
 
-#jeannie{
-	height: 100px;
-	bottom: 400px;
-	left:100px;
 
-}
 
 
 .name {
 	height:25px;
-	width: 17%;
+	width: 18%;
 	background: #4aaaa5;
 	color: white;
 	font-size: 26px;
@@ -74,6 +72,11 @@ a{
  	border-bottom: 1px solid #dddddd;
 }
 
+#socialmedia{
+	
+}
+
+
 #footer{
 	height: 60px;
 	width: 100%;
@@ -91,6 +94,6 @@ a{
 	margin-top: 30px;
 	colr: #4aaaa5;
 }
-.CWM{
+.cwm{
 	color: #4aaaa5;
 }
