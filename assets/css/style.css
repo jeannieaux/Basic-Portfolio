@@ -2,14 +2,15 @@ body{
 	font-family: Georgia, Times, Times New Roman, serif;
 	font-size: 8;
 	background-color: #cccccc;
-	
+	/* I could not get the background image to load */
+	background-image: url(pattern.png);
 }
 
 /* The following css is for the 'form'on contact page. For some
 reason, when I input the data toward the bottom
 of the page, the code ceases to update and work.
-Not sure why. Also, I found this form "formula" on-line and 
-tweeked it accordingly */
+Not sure why. Also, I found the code for this form on-line and 
+tweeked it accordingly. Not sure of this is the best way*/
 
 form div + div {
     margin-top: 1em;
@@ -100,6 +101,26 @@ a{
 	margin-bottom: 50px;
 	
 }
+/* hangman photo*/
+img.resize{
+max-height: 100%;
+max-width: 100%;
+
+}
+ /*rock paper scissors photo*/
+img.resize2{
+max-height: 80%;
+max-width: 80%;
+
+
+}
+
+/*trivia photo*/
+img.resize4{
+max-height: 20%;	
+max-width: 20%;
+margin: auto 0;
+}
 
 
  #maincontent {
@@ -122,11 +143,67 @@ a{
 }
 
 .contactxt{
-margin-left: 38px;
+	margin-left: 38px;
  	color: #4aaaa5;
  	font-size: 23px;
- 	border-bottom: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
 }
+
+.porttext{
+	color: #4aaaa5;
+	border-bottom: 1px solid #dddddd;
+	
+	margin-left: 20px;
+}
+
+.hangman{
+	border: 1px dotted #dddddd;
+	width: 45%; margin-top: 0;
+	height: 150px;
+	margin-left: 322px;
+}
+
+.hangtext{
+	color: #4aaaa5;
+	margin-left: 22px;
+}
+.rock{
+	border: 1px dotted #dddddd;
+	width: 45%; margin-top: 0;
+	height: 150px;
+	margin-left: 50%;
+	
+}
+.rocktext{
+	color: #4aaaa5;
+	margin-left: 22px;
+
+}
+
+.playgame{
+	border: 1px dotted #dddddd;
+	width: 45%; margin-top: 0;
+	height: 150px;
+	margin-left: 50%;
+	
+	}
+
+.playtext {
+	color: #4aaaa5;
+	margin-left: 22px;
+}
+.trivia {
+	border: 1px dotted #dddddd;
+	width: 45%; margin-top: 0;
+	height: 150px;
+	margin-left: 50%;
+}
+
+.triviatext{
+	color: #4aaaa5;
+	margin-left: 22px;
+}
+
 
 .movemsg{
 
